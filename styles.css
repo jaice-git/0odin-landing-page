@@ -68,7 +68,7 @@ h1 {
     margin-bottom: -8px;
 }
 
-p {
+.hero-left p {
     font-size: 18px;
     color: var(--secondary-text);
 }
@@ -89,3 +89,20 @@ button {
     padding: 0;
 }
 
+.information-square {
+    height: 150px;
+    width: 150px;
+    border-radius: 12px;
+    border-color: var(--button-color);
+    border-style: solid;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.information-container {
+    display: flex;
+}
