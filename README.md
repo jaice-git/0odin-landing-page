@@ -1,0 +1,1 @@
+A landing page created using HTML and CSS as part of The Odin Project curriculum (https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/landing-page).
