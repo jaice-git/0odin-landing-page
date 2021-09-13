@@ -1,0 +1,34 @@
+:root {
+    --dark-blue: #1F2937;
+    --whiteish: #F9FAF8;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--dark-blue);
+    align-items: center;
+}
+
+.logo {
+    background: transparent;
+    width: 80px;
+    margin-left: 40px;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
