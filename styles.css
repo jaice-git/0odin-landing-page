@@ -43,9 +43,13 @@ body {
 }
 
 .rectangle {
+    display: flex;
     height: 200px;
     width: 400px;
     background-color: gray;
+    align-items: center;
+    justify-content: center;
+    color: var(--secondary-text);
 }
 
 .hero {
