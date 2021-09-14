@@ -91,8 +91,8 @@ button {
 }
 
 .information-square {
-    height: 180px;
-    width: 180px;
+    height: 140px;
+    width: 140px;
     border-radius: 12px;
     border-color: var(--button-color);
     border-style: solid;
@@ -119,12 +119,13 @@ h2 {
     color: var(--dark-blue);
     padding-top: 20px;
     padding-bottom: 20px;
+    text-align: center;
 }
 
 .information-col p {
-    font-size: 18px;
+    font-size: 15px;
     color: var(--dark-blue);
-    width: 180px;
+    width: 140px;
 
 }
 
@@ -137,22 +138,77 @@ h2 {
 }
 
 .quote-container-2 {
-    max-width: 800px;
+    max-width: 700px;
 }
 
 .quote {
-    font-size: 33px;
+    font-size: 28px;
     font-weight: lighter;
     font-style: italic;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
     margin-top: 100px;
 }
 
 .quotee {
     font-weight: bolder;
-    font-size: 30px;
+    font-size: 24px;
     text-align: right;
-    margin-right: 10px;
-    margin-top: -40px;
+    margin-right: 80px;
+    margin-top: -20px;
+}
+
+.cta-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.cta-banner {
+    display: flex;
+    height: 120px;
+    width: 800px;
+    background: var(--button-color);
+    border-radius: 12px;
+    border-style: none;
+    align-items: center;   
+    justify-content: center;
+    gap: 70px;
+}
+
+.cta-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 8px;
+    padding-left: 20px;
+}
+
+.cta-text h4{
+    color: var(--whiteish);
+    padding: 0px;
+    margin: 0px;
+    font-size: 20px
+}
+
+.cta-text p{
+    color: var(--whiteish);
+    padding: 0px;
+    margin: 0px;
+}
+
+.cta-banner button {
+    display: flex;
+    color: var(--whiteish);
+    justify-content: center;
+    align-items: center;
+    border-color: white;
+    border-style: solid;
+    border-width: 2px;
+}
+
+.button-container {
+    padding-right: 20px;
 }
