@@ -176,6 +176,8 @@ h2 {
     align-items: center;   
     justify-content: center;
     gap: 70px;
+    margin-right: 20px;
+    margin-left: 20px;
 }
 
 .cta-text {
@@ -211,4 +213,17 @@ h2 {
 
 .button-container {
     padding-right: 20px;
+}
+
+.footer {
+    display: flex;
+    background-color: var(--dark-blue);
+    height: 80px;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-text {
+    color: var(--whiteish);
+    font-size: 14px;
 }
