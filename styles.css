@@ -59,6 +59,7 @@ body {
     align-items: center;
     padding-top: 50px;
     padding-bottom: 50px;
+    flex-wrap: wrap;
 }
 
 h1 {
@@ -106,9 +107,9 @@ button {
 .information-container {
     display: flex;
     justify-content: center;
-    width: 0px;
     text-align: center;
     gap: 32px;
+    flex-wrap: wrap;
 }
 
 h2 {
