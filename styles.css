@@ -13,7 +13,6 @@ header {
     display: flex;
     background-color: var(--dark-blue);
     justify-content: center;
-
 }
 
 .header-container {
@@ -43,20 +42,12 @@ a {
 }
 
 body {
-    display: flex;
-    flex-direction: column;
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
 }
 
 .rectangle {
-    display: flex;
-    height: 200px;
     width: 400px;
-    background-color: gray;
-    align-items: center;
-    justify-content: center;
-    color: var(--secondary-text);
 }
 
 .hero {
@@ -67,6 +58,7 @@ body {
     padding-top: 50px;
     padding-bottom: 50px;
     flex-wrap: wrap;
+    gap: 20px;
 }
 
 h1 {
@@ -94,21 +86,16 @@ button {
     font-weight: 700;
     font-size: 12px;
     border: none;
-    padding: 0;
+    cursor: pointer;
 }
 
 .information-square {
-    height: 140px;
-    width: 140px;
+    height: 160px;
     border-radius: 12px;
     border-color: var(--button-color);
     border-style: solid;
-}
-
-.information {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    object-fit: cover;
+    aspect-ratio: 1 / 1;
 }
 
 .information-container {
@@ -133,7 +120,6 @@ h2 {
     font-size: 15px;
     color: var(--dark-blue);
     width: 140px;
-
 }
 
 .quote-container {
@@ -180,7 +166,7 @@ h2 {
     background: var(--button-color);
     border-radius: 12px;
     border-style: none;
-    align-items: center;   
+    align-items: center;
     justify-content: center;
     gap: 70px;
     margin-right: 20px;
@@ -197,15 +183,15 @@ h2 {
 
 .cta-text h4{
     color: var(--whiteish);
-    padding: 0px;
-    margin: 0px;
+    padding: 0;
+    margin: 0;
     font-size: 20px
 }
 
 .cta-text p{
     color: var(--whiteish);
-    padding: 0px;
-    margin: 0px;
+    padding: 0;
+    margin: 0;
 }
 
 .cta-banner button {
