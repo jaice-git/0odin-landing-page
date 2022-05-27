@@ -90,7 +90,7 @@ button {
 }
 
 .information-square {
-    height: 160px;
+    height: 200px;
     border-radius: 12px;
     border-color: var(--button-color);
     border-style: solid;
@@ -117,9 +117,11 @@ h2 {
 }
 
 .information-col p {
-    font-size: 15px;
+    font-size: 18px;
     color: var(--dark-blue);
-    width: 140px;
+    width: 200px;
+    margin: 0 auto;
+    padding-top: 10px;
 }
 
 .quote-container {
