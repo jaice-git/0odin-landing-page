@@ -1,1 +1,1 @@
-A landing page created using HTML and CSS as part of The Odin Project curriculum (https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/landing-page).
+A personal page created using HTML, SASS and JS as part of training at Softwire.
